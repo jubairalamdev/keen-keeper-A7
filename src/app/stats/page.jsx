@@ -16,12 +16,12 @@ const StatsPage = () => {
         { name: "Video", value: videos.length, fill: "#37A163" },
     ]
     return (
-        <div className="bg-[#f8fafc] py-20 text-base-content/90 min-h-[70bh]">
-            <div className="w-9/12 mx-auto space-y-5">
+        <div className="bg-base-200 py-20 text-base-content/90 min-h-[70vh]">
+            <div className="max-w-290 px-5 md:px-8 xl:px-0 mx-auto space-y-5">
                 <h2 className="font-bold text-4xl text-[#1F2937]">Friendship Analytics</h2>
                 <div className="bg-white rounded-md shadow-sm p-7">
                     <h2 className="font-semibold mb-4 text-[#244D3F]">By Interaction Type</h2>
-                    <div className="flex justify-center items-center">
+                    <div className="flex justify-center items-center min-h-24">
                         {
                             interactions.length <= 0
                                 ? <h2 className="font-semibold text-xl">No Interactions Yet...</h2>

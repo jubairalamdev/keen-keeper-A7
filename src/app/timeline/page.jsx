@@ -20,7 +20,7 @@ const TimelinePage = () => {
 
     return (
         <div className="bg-base-200 py-20 text-base-content/90 min-h-[70vh]">
-            <div className="max-w-290 mx-auto space-y-5">
+            <div className="max-w-290 px-5 md:px-8 xl:px-0 mx-auto space-y-5">
                 <h2 className="font-bold text-4xl text-[#1F2937]">Timeline</h2>
                 <div className="flex justify-between items-center flex-col md:flex-row gap-4">
                     <select 

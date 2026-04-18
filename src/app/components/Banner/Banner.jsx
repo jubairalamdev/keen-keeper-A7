@@ -3,8 +3,8 @@ import { FaPlus } from 'react-icons/fa';
 
 const Banner = () => {
     return (
-        <div className='bg-[#f8fafc] pt-20 pb-10 text-center'>
-            <h2 className='w-[80%] mx-auto font-bold text-3xl md:text-4xl mb-4 text-[#1F2937]'>Friends to keep close in your life</h2>
+        <div className='pt-20 pb-10 text-center'>
+            <h2 className='md:w-[80%] mx-auto font-bold text-3xl md:text-4xl mb-4 text-[#1F2937]'>Friends to keep close in your life</h2>
             <p className='w-[80%] mx-auto text-sm text-base-content/60 mb-8'>Your personal shelf of meaningful connections. Browse, tend, and nurture the <br />
                 relationships that matter most.</p>
             <div className='flex justify-center items-center'>

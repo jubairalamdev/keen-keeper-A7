@@ -10,7 +10,7 @@ export default function Home() {
   
   return (
     <main className="bg-base-200">
-      <div className="max-w-290 mx-auto">
+      <div className="max-w-290 mx-auto bg-base-200 px-5 md:px-8 xl:px-0">
       <Banner/>
       <Stats/>
       <AllFriends/>

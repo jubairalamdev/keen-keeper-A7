@@ -2,8 +2,8 @@ import React from 'react';
 
 const Stats = () => {
     return (
-        <div className='bg-[#f8fafc] '>
-            <div className=' grid grid-cols-1 md:grid-cols-4 gap-5 pb-10 border-b-2 border-gray-200'>
+        <div className=''>
+            <div className=' grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 pb-10 border-b-2 border-gray-200'>
                 <div className='rounded-md shadow-md shadow-base-content/5 transition hover:shadow-lg hover:-translate-y-1 text-center py-7 bg-white'>
                     <h2 className='text-3xl mb-2 font-bold text-[#1F2937]'>10</h2>
                     <p className='text-base-content/60'>Total Friends</p>

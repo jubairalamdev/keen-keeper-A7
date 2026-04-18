@@ -37,8 +37,8 @@ const FriendDetailsPage = () => {
     }
 
     return (
-        <div className="bg-[#f8fafc] py-20 text-base-content/90">
-            <div className="w-9/12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="bg-base-200 py-20 text-base-content/90">
+            <div className="max-w-290 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div className="space-y-4">
                     <div className="bg-white rounded-md shadow-md shadow-base-content/5 transition p-5 text-center space-y-2">
                         <div className="flex justify-center items-center">
